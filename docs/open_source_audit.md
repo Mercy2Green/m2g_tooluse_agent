@@ -1,10 +1,5 @@
 # Open Source Audit
 
-Source project:
-
-- `/home/m2g/workspace/m2g_vla_benchmark/m2g_tooluse`
-- Branch: `v1.6-try-the-rl-locomotion-skill-adding`
-- Recent commits: `c508c96`, `070c3ea`, `2d8d020`, `b0bd7a9`, `97063c8`
 
 ## Source Repository State
 
