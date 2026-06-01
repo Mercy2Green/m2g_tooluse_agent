@@ -61,9 +61,7 @@ The bridge can expose service profiles, but callers must use commands supported 
 
 ## Demo videos
 
-Representative recordings (see `videos/`):
+Representative recordings (files under `videos/`):
 
 - ROSA tools test — videos/test_rosa-2026-05-27_00.59.28.mp4
 - ROS2 bridge test — videos/test_ros2-2026-05-27_00.52.14.mp4
-
-Open `videos/index.html` to view these files. I selected the ROSA and ROS2 clips as the most relevant to bridge/ROSA functionality.

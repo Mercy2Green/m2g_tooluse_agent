@@ -65,8 +65,6 @@ Known limitations:
 
 ## Demo videos
 
-Key recorded demo (see `videos/`):
+Key recorded demo (file under `videos/`):
 
 - RL locomotion policy test — videos/test_RL-2026-05-27_02.14.14.mp4
-
-Open `videos/index.html` for a gallery. I included the RL test clip as representative of locomotion behaviour.
