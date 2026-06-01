@@ -2,6 +2,8 @@
 
 A research prototype for integrating IsaacLab, ROS2, ROSA, and skill-based control on a simulated Unitree Go2 + Piper mobile manipulator.
 
+欢迎大家发issue进行讨论，目前项目代码可以发送给codex或GPT直接进行修改或参考使用，目前项目无法直接运行，因为需要配置上述环境和资产。
+
 ## What This Project Currently Supports
 
 - Go2+Piper IsaacLab configuration
