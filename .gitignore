@@ -8,7 +8,6 @@ outputs/
 results/
 wandb/
 runs/
-videos/
 *.mp4
 *.mov
 *.mkv
