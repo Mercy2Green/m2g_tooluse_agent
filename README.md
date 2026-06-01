@@ -4,6 +4,9 @@ A research prototype for integrating IsaacLab, ROS2, ROSA, and skill-based contr
 
 欢迎大家发issue进行讨论，目前项目代码可以发送给codex或GPT直接进行修改或参考使用，目前项目无法直接运行，因为需要配置上述环境和资产。
 
+小红书demo视频链接：ROS-agent + Isaaclab仿真 http://xhslink.com/o/At2Lh9dtSJ 
+小红书中有额外想和大家讨论的WAM/VLM、AI agent的问题，也欢迎评论留言。
+
 ## What This Project Currently Supports
 
 - Go2+Piper IsaacLab configuration
