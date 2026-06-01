@@ -94,6 +94,17 @@ Large robot, room, USD, checkpoint, log, and video files are not committed. See 
 - [ROSA and ROS2 bridge](docs/05_rosa_ros2_bridge.md)
 - [Training](docs/06_training.md)
 
+## Demo videos (selected)
+
+I added links to a small set of representative demo recordings in the docs. Selected clips (kept as examples in `videos/`):
+
+- `videos/test_dk_run_demo-2026-05-28_01.26.43.mp4` — GT run demo
+- `videos/test_RL-2026-05-27_02.14.14.mp4` — RL locomotion policy test
+- `videos/test_ros2-2026-05-27_00.52.14.mp4` — ROS2 bridge test
+- `videos/test_rosa-2026-05-27_00.59.28.mp4` — ROSA tools test
+
+Open `videos/index.html` in a browser (see `videos/README.md`) to view these. Remove other files in `videos/` if you want to keep only the selected clips.
+
 ## Citation and License
 
 See [CITATION.cff](CITATION.cff) and [LICENSE](LICENSE).

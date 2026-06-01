@@ -60,3 +60,12 @@ Troubleshooting:
 - ROS2 services not visible: check `ROS_DOMAIN_ID`, `RMW_IMPLEMENTATION`, and that Terminal A sourced ROS2.
 - `TERM=dumb`: run commands with `TERM=xterm`.
 - ROSA natural-language mode requires `OPENAI_API_KEY` or a compatible API configuration.
+
+## Demo videos
+
+Key recorded demos (see `videos/`):
+
+- GT run demo — videos/test_dk_run_demo-2026-05-28_01.26.43.mp4
+- ROS2 bridge demo — videos/test_ros2-2026-05-27_00.52.14.mp4
+
+You can open `videos/index.html` for a simple gallery. I selected the GT and ROS2 bridge clips as the most representative; remove other files in `videos/` if you want to keep only these.

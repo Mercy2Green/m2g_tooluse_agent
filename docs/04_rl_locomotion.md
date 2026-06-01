@@ -62,3 +62,11 @@ Known limitations:
 - No obstacle avoidance.
 - Policy quality depends on the supplied checkpoint.
 - No full SLAM/Nav2 integration yet.
+
+## Demo videos
+
+Key recorded demo (see `videos/`):
+
+- RL locomotion policy test — videos/test_RL-2026-05-27_02.14.14.mp4
+
+Open `videos/index.html` for a gallery. I included the RL test clip as representative of locomotion behaviour.
