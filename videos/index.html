@@ -18,7 +18,7 @@
   <h1>M2G ToolUse — Demo Videos</h1>
   <p>Local gallery of recorded demos. Click play to view. Serve this folder and open this file in a browser.</p>
   <div class="grid">
-    <!-- Video list inserted by script -->
+    <!-- File links list inserted by script -->
   </div>
 
 <script>
@@ -35,9 +35,13 @@ const videos = [
 const grid = document.querySelector('.grid');
 videos.forEach(v => {
   const card = document.createElement('div'); card.className='card';
-  const vid = document.createElement('video'); vid.controls = true; vid.src = encodeURI(v.file);
-  const meta = document.createElement('div'); meta.className='meta'; meta.textContent = v.title + ' — ' + v.file;
-  card.appendChild(vid); card.appendChild(meta);
+  const link = document.createElement('a');
+  link.href = encodeURI(v.file);
+  link.textContent = v.title + ' — ' + v.file;
+  link.target = '_blank';
+  link.className = 'btn';
+  const meta = document.createElement('div'); meta.className='meta'; meta.appendChild(link);
+  card.appendChild(meta);
   grid.appendChild(card);
 });
 </script>
