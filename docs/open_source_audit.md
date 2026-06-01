@@ -39,15 +39,6 @@ The source repository contains `apikey.md` with OpenAI-style keys. This file was
 
 The keyword scan also matched API-token examples in third-party documentation and expected runtime environment reads in ROSA code. Only source code that reads API keys from environment variables was copied.
 
-## Path Cleanup
-
-The copied public skeleton was scanned for `/home/m2g`, `m2g_vla_benchmark`, `apikey`, and inline `OPENAI_API_KEY=...` examples. Local absolute paths in copied code were replaced with:
-
-- `ISAACLAB_PATH`
-- `M2G_TOOLUSE_ROOT`
-- `M2G_ASSET_ROOT`
-
-The private G1/Unitree cfg file with hard-coded local paths was removed from the public skeleton because it is not required for the Go2+Piper public scope.
 
 ## Intentional Exclusions
 
