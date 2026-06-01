@@ -1,0 +1,7 @@
+M2G ToolUse
+Copyright 2026 M2G ToolUse Contributors
+
+The Apache-2.0 license applies to the source code in this repository.
+Third-party assets, robot descriptions, IsaacLab, IsaacSim, ROSA, Unitree,
+and AgileX/Piper assets are governed by their own licenses. This repository
+does not redistribute third-party robot or room assets by default.

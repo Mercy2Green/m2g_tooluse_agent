@@ -1,0 +1,22 @@
+assets:
+  go2_usd:
+    path: assets/robots/Go2/go2.usd
+    source: "IsaacLab / Unitree official source"
+    redistributable: false
+    required: true
+  piper_usd:
+    path: assets/robots/Piper/piper_v2.usd
+    source: "AgileX/Piper official source"
+    redistributable: false
+    required: true
+  go2_piper_sanitized_usd:
+    path: assets/robots/Go2Piper/go2_piper_v1_train_sanitized.usd
+    generated_by:
+      - m2g_tooluse/train/navigation/sanitize_go2_piper_usd.py
+    redistributable: "generated locally; check source asset licenses"
+    required: true
+  room_usd:
+    path: assets/room/simple_room.usd
+    source: "user-provided or generated"
+    redistributable: false
+    required: true

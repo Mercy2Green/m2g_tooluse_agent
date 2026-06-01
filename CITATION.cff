@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this research prototype, please cite it with the metadata below."
+title: "M2G ToolUse: ROSA-Enabled Go2+Piper Tool-Use Simulation in IsaacLab"
+version: "0.1.0"
+authors:
+  - name: "M2G ToolUse Contributors"
+license: "Apache-2.0"
