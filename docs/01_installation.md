@@ -1,5 +1,7 @@
 # Installation
 
+不要直接参考本页进行安装，需要配置ROSA、ROS2、Isaacsim、Isaaclab，下述内容仅能作为参考。
+
 Use separate environments so IsaacLab dependencies do not conflict with ROSA and ROS2 CLI tooling.
 
 ```bash
