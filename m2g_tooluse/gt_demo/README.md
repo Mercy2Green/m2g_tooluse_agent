@@ -6,4 +6,4 @@ This package contains the staged ground-truth pick demo, ROS2 bridge hooks, ROSA
 
 ## Demo videos
 
-Representative recording: `videos/test_dk_run_demo-2026-05-28_01.26.43.mp4` (GT run demo). See `videos/index.html` for quick access to the selected clips.
+Representative recording (file under `videos/`): `videos/test_dk_run_demo-2026-05-28_01.26.43.mp4` (GT run demo).
