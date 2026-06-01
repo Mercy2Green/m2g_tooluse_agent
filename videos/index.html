@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>M2G ToolUse — Demo Videos</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;padding:24px;background:#111;color:#eee}
+    h1{margin-top:0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+    .card{background:#161616;padding:12px;border-radius:8px;border:1px solid #222}
+    video{width:100%;height:auto;border-radius:6px;background:#000}
+    .meta{font-size:14px;color:#aaa;margin-top:8px}
+    a.btn{display:inline-block;padding:6px 10px;margin-top:8px;background:#0b5fff;color:#fff;border-radius:6px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <h1>M2G ToolUse — Demo Videos</h1>
+  <p>Local gallery of recorded demos. Click play to view. Serve this folder and open this file in a browser.</p>
+  <div class="grid">
+    <!-- Video list inserted by script -->
+  </div>
+
+<script>
+const videos = [
+  {file: 'test_RL-2026-05-27_02.14.14.mp4', title: 'RL Test'},
+  {file: 'test_dk_agent-2026-05-28_01.30.41.mp4', title: 'DK Agent Test'},
+  {file: 'test_dk_api_ask-2026-05-28_01.22.20.mp4', title: 'DK API Ask'},
+  {file: 'test_dk_run_demo-2026-05-28_01.26.43.mp4', title: 'DK Run Demo'},
+  {file: 'test_move_forward-2026-05-28_02.38.53.mp4', title: 'Move Forward'},
+  {file: 'test_move_forward_simple_room-2026-05-28_02.56.42.mp4', title: 'Move Forward (Simple Room)'},
+  {file: 'test_ros2-2026-05-27_00.52.14.mp4', title: 'ROS2 Bridge Test'},
+  {file: 'test_rosa-2026-05-27_00.59.28.mp4', title: 'ROSA Tools Test'}
+];
+const grid = document.querySelector('.grid');
+videos.forEach(v => {
+  const card = document.createElement('div'); card.className='card';
+  const vid = document.createElement('video'); vid.controls = true; vid.src = encodeURI(v.file);
+  const meta = document.createElement('div'); meta.className='meta'; meta.textContent = v.title + ' — ' + v.file;
+  card.appendChild(vid); card.appendChild(meta);
+  grid.appendChild(card);
+});
+</script>
+</body>
+</html>
